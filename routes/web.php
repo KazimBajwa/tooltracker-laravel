@@ -58,3 +58,6 @@ Route::get('/company/create', [App\Http\Controllers\CompanyController::class, 'c
 Route::post('/company/store', [App\Http\Controllers\CompanyController::class, 'store'])->name('comp.store');
 Route::get('/company/{id}/edit', [App\Http\Controllers\CompanyController::class, 'edit'])->name('comp.edit');
 Route::put('/company/{id}', [App\Http\Controllers\CompanyController::class, 'update'])->name('comp.update');
+
+// test git update
+Route::put('/testgit/{id}', [App\Http\Controllers\CompanyController::class, 'update'])->name('testgit.update');
