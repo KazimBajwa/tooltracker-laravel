@@ -37,7 +37,7 @@ public function edit($id)
     $company=Company::findOrFail($id);
     return view('tools.company.edit', compact('company'));
 }
-
+ // here i am editing code to chedk git
 
 //-------------------update---------------------//
 public function update($id)
@@ -47,10 +47,10 @@ public function update($id)
     'company'=>'required'
     ]);
 
-    $loc = Company::findOrFail($id);
-    $loc->name=request('company');
-    $loc->save();
-    return redirect('/company');
+    // $loc = Company::findOrFail($id);
+    // $loc->name=request('company');
+    // $loc->save();
+    // return redirect('/company');
 }
 
 
