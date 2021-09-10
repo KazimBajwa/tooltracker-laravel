@@ -34,7 +34,7 @@
                 
                 <!-- <th class="align-middle" scope='row'>1</th> -->
                 <td class="align-middle pl-3">{{$subcateg->name}}</td>
-                <td class="align-middle">Sub-Category</td>
+                <td class="align-middle"> Sub-Category</td>
                 <td class="align-middle text-center">
                     <a href="#">
                         <button type="submit" class="btn btn-link"> <img src="{{'images/edit-icon.png'}}" alt="delimage" width="15" height="15"> 
